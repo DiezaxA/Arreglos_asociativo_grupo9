@@ -60,7 +60,7 @@ def introducir_registro():
     registro_rendimiento[id_reg] = {
         "Nombre": nombre,
         "Prueba": prueba,
-        "Tiempo": tiempo
+        "Tiempo": tiempo,
     }
     print(f" ¡Registro '{id_reg}' guardado exitosamente!")
 
